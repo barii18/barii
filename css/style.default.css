@@ -298,10 +298,6 @@ p.social a.facebook {
   background-color: #ccc;
 }
 
-p.social a.gplus {
-  background-color: #333;
-}
-
 p.social a.twitter {
   background-color: #aaa;
 }
@@ -312,6 +308,10 @@ p.social a.instagram {
 
 p.social a.email {
   background-color: #666;
+}
+
+p.social a.linkedin {
+  background-color: #888;
 }
 
 /*
