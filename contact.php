@@ -4,7 +4,7 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'Contact Form <info@lbarii.netlify.app';
 
 // an email address that will receive the email with the output of the form
 $sendTo = 'Bariyat Likita <bariyatlikita@gmail.com>';
@@ -52,8 +52,7 @@ try
     
     // Send email
     mail($sendTo, $subject, $emailText, implode("\n", $headers));
-    mail('bariyatlikita@gmail.com', $subject, $emailText, implode("\n", $headers));
-
+    
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
 catch (\Exception $e)
